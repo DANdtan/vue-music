@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "for musiccloud",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zfl",
+  "license": "ISC",
+  "dependencies": {
+    "encoding": "^0.1.12",
+    "request": "^2.81.0"
+  }
+}
