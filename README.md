@@ -1,5 +1,5 @@
 # vue仿网易云音乐
-实现听歌，歌单，搜索，歌词等功能。
+实现播放，歌单，搜索，歌词等功能。
 
 之前一直想抽时间学vue,看到别人做的vue云播放器都挺不错的，于是趁最近有时间就自己动手做一个看看
 > 第一次做一个相对完整的vue项目，如果有什么做的不足，请提出宝贵的建议，如果觉得做的不错，请star一下，谢谢O(∩_∩)O
@@ -45,5 +45,6 @@
 ![insonglist](https://github.com/DANdtan/vue-music/blob/master/mdpic/insonglist.gif)
 
 ![search](https://github.com/DANdtan/vue-music/blob/master/mdpic/search.gif)
+
 
 github项目地址:https://github.com/DANdtan/vue-music
