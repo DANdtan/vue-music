@@ -16,6 +16,21 @@
 - ES6：采用ES6语法
 - axios:发起http请求
 
+## 启动
+
+
+> 分别在cloudmusic和server目录下安装好依赖
+
+npm install
+
+> server目录
+
+node app.js
+
+> cloudmusic 目录
+
+npm run dev
+
 ## 功能分析与设计
 
 基本使用了第三方提供的api，不过我没找到关于首页的请求，于是用node.js写了个简单的请求首页数据的server
