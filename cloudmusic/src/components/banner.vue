@@ -18,6 +18,7 @@
 </template>
 <script>
 	import { swiper, swiperSlide } from 'vue-awesome-swiper'
+  import 'swiper/dist/css/swiper.css'
 	export default {
 		name: 'banner',
 		props: ['BannerList'],
@@ -74,6 +75,7 @@
   }
 </script>
 <style scoped lang="less">
+
 	.swiperdiv{
 		height:223px;
 		width:inherit;
