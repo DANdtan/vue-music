@@ -154,12 +154,16 @@ const store=new Vuex.Store({
 			commit("songLoading");
 			Axios.get(api.getSong(songId)).then(res=>{
 				let url = res.data.data[0].url;
+				let code = res.data.data[0].code;
 				commit("setAudio");
 				commit("setAudioLocation",url);
-				if(url==null)
+				if(url==null||code!=200)
 				{
 					commit("songError",true)
 				}
+				
+			},rej=>{
+				commit("songError",true)
 			}).catch((err)=>{
 				console.log(err)
 				commit("songError",true)

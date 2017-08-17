@@ -1,14 +1,14 @@
-const _baseUrl = 'http://musicapi.duapp.com/api.php'
 const _baseUrl2 = 'https://api.imjad.cn/cloudmusic/'
+const localAddress='http://127.0.0.1:3001'
 export default {
   getPlayListByWhere (cat, order, offset, total, limit) {
-    return _baseUrl + '?type=topPlayList&cat=' + cat + '&offset=' + offset + '&limit=' + limit
+    return localAddress + '/playlist?cat=' + cat + '&offset=' + offset + '&limit=' + limit
   },
   getLrc (id) {
     return _baseUrl2 + '?type=lyric&id=' + id
   },
   getSong (id) {
-    return _baseUrl + '?type=url&id=' + id
+    return _baseUrl2 + '?type=song&br=128000&id=' + id
   },
   getPlayListDetail (id) {
     return _baseUrl2 + '?type=playlist&id=' + id

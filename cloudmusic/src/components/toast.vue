@@ -18,12 +18,9 @@
 				this.$data.mgs=val;
 				this.toast = true;
 				if (this.toastTimer) clearTimeout(this.toastTimer)
-					this.toastTimer = setTimeout(() => { this.toast = false;clearTimeout(this.toastTimer) }, 2000)
+					this.toastTimer = setTimeout(() => { this.toast = false;
+						clearTimeout(this.toastTimer) }, 2000)
 			},
-			// hideToast () {
-			// 	this.toast = false
-			// 	if (this.toastTimer) clearTimeout(this.toastTimer)
-			// }
 	}
 }
 </script>

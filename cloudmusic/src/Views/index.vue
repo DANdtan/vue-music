@@ -38,6 +38,13 @@
 		},
 		created(){
 			this.handleTabChange('recommendlist')
+		},
+		watch:{
+			'$route' (to, from) {
+				let path=to.path;
+				let item=path.split('/');
+				this.activeTab = item[2]
+			}
 		}
 	}
 </script>

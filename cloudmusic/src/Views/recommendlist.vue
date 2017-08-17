@@ -181,10 +181,10 @@
 			}
 		}
 		.redicon{
-			margin-top:12px;
-			font-size:36px;
-			width:36px;
-			height:36px;
+			margin-top:12px !important;
+			font-size:36px !important;;
+			width:36px !important;;
+			height:36px !important;;
 		}
 	}
 	.centerboxitem
